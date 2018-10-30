@@ -12,16 +12,16 @@ import javax.swing.JOptionPane;
  * @author ecollazodominguez
  */
 public class Peso {
-    int peso;
+    float peso;
     String nome;
     
-    public Peso(int peso, String nome){
+    public Peso(float peso, String nome){
         this.peso = peso;
         this.nome = nome;
     }
     
     public void CompararPeso(Peso a, Peso b){
-        int difPeso = 0;
+        float difPeso = 0;
         if (a.peso > b.peso){
             difPeso = a.peso - b.peso;
             JOptionPane.showMessageDialog(null, a.nome+" de peso "+a.peso+" kg, pesa máis ca "+b.nome+" cunha diferencia de "+difPeso+" kg.");
