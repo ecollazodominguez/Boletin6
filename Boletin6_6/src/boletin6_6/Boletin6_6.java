@@ -19,9 +19,9 @@ public class Boletin6_6 {
         Almacen producto2 = new Almacen("Mesas", 450);
         Almacen producto3 = new Almacen("Armarios", 99);
 
-        producto1.calcularConsumo(producto1);
-        producto2.calcularConsumo(producto2);
-        producto3.calcularConsumo(producto3);
+        producto1.calcularConsumo();
+        producto2.calcularConsumo();
+        producto3.calcularConsumo();
 
     }
 

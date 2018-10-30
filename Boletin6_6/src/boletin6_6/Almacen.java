@@ -21,15 +21,15 @@ public class Almacen {
         this.vendasA = vendasA;
     }
 
-    public void calcularConsumo(Almacen a) {
+    public void calcularConsumo() {
         if (vendasA <= 100) {
-            JOptionPane.showMessageDialog(null, a.nome + " ten un consumo baixo.");
+            JOptionPane.showMessageDialog(null, nome + " ten un consumo baixo.");
         } else if (vendasA <= 500) {
-            JOptionPane.showMessageDialog(null, a.nome + " ten un consumo medio.");
+            JOptionPane.showMessageDialog(null, nome + " ten un consumo medio.");
         } else if (vendasA <= 1000) {
-            JOptionPane.showMessageDialog(null, a.nome + " ten un consumo alto.");
+            JOptionPane.showMessageDialog(null, nome + " ten un consumo alto.");
         } else {
-            JOptionPane.showMessageDialog(null, a.nome + " ten unha primeira necesidade.");
+            JOptionPane.showMessageDialog(null, nome + " ten unha primeira necesidade.");
         }
     }
 }
