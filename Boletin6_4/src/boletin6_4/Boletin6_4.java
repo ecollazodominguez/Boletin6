@@ -19,5 +19,5 @@ public class Boletin6_4 {
         Peso persona2 = new Peso(75.4f, "Javier");
         persona2.CompararPeso(persona1, persona2);
     }
-    
+
 }
