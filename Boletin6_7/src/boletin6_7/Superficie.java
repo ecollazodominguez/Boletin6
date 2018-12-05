@@ -28,7 +28,7 @@ public class Superficie {
                 System.out.println("Introduce el lado del cuadrado");
                 Scanner lad = new Scanner(System.in);
                 lado = lad.nextFloat();
-                System.out.println("El área del circulo es de: " + Math.pow(lado, 2) + "m²");
+                System.out.println("El área del cuadrado es de: " + Math.pow(lado, 2) + "m²");
                 break;
 
             case 2:
